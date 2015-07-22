@@ -28,106 +28,70 @@
     <div class="contain-to-grid sticky">
         <nav class="top-bar" data-topbar="">
             
-            <ul class="title-area">
-                
+            <ul class="title-area">                
                 <li class="name">
                     <h1><a href="#"><img src="img/signature.svg" alt="signature"></a></h1>
                 </li>
-
                 <li class="toggle-topbar menu-icon">
                     <a href="#"><span>Menu</span></a>
                 </li>
-
             </ul>
 
             <section class="top-bar-section">
                 <ul class="right" id="nav">
-                    
                     <li>
                         <a href="#top">Home</a>
                     </li>
-
                     <li>
                         <a href="#portfolio">Meet Keith</a>
                     </li>
-
                     <li>
                         <a data-reveal-id="contact-form" href="#">Contact Us</a>
-
                         <div class="reveal-modal small" data-reveal="" id="contact-form">
-                            
                             <h2>Contact Keith</h2>
-                            
                             <p>We love hearing from you! Fill out the form below, or feel free to grab my contact info from anywhere on the page and contact me through email or by phone. Let me know how I can help you today!</p>
-
-                            <form enctype="text/plain" method="POST" action="send_form_email.php" id="formContact">
-                                
+                            <!--<form enctype="text/plain" method="POST" action="send_form_email.php" id="formContact">-->
+                            <form id="formContact">                                
                                 <div class="row collapse">
                                     <div class="large-2 columns">
                                         <label class="inline">Your Name</label>
                                     </div>
-
                                     <div class="large-10 columns">
                                         <input id="name" placeholder="John Smith" type="text" name="name">
                                     </div>
                                 </div>
-
                                 <div class="row collapse">
                                     <div class="large-2 columns">
                                         <label class="inline">Your Email</label>
                                     </div>
-
                                     <div class="large-10 columns">
                                         <input id="email" placeholder="john@smithco.com" type="text" name="email">
                                     </div>
-                                </div>
-                                                                                             
+                                </div>                                                                                           
                                 <div class="row collapse">
                                     <div class="large-2 columns">
                                         <label class="inline">Contact #:</label>
                                     </div>
-
                                     <div class="large-10 columns">
                                         <input id="number" placeholder="What number can I reach you at?" type="text" name="phone">
                                     </div>
-                                </div>
-                                
-                                <label>What can I help you with?</label> 
-                                
-                                <textarea name="comments" rows="4">
-								
-                                </textarea> 
-                                
-                                <button class="radius button" type="submit" value="Submit" id="submit" name="submit">Submit</button>
-                            
+                                </div>                             
+                                <label>What can I help you with?</label>                              
+                                <textarea name="comments" rows="4">								
+                                </textarea>                                
+                                <button class="radius button" type="submit" value="Submit" id="submit" name="submit">Submit</button>                           
                             </form><a class="close-reveal-modal">×</a>
-                        
-                        </div>
-                        
-                        <script>
-	                       $('#formContact').submit(function() {
-	                       if(
-	                       $('#email').val() == '' || $('#comments').val() == '' || $('#address').val() != ''
-	                       ){
-		                  alert('We are very sorry, but there were error(s) found with the form you submitted. Please make sure to enter a valid email and any questions or comments you may have.');
-		                  return false;
-	                       }	
-	                       });
-	                   </script>
+                        </div>                        
                     </li>
-
                     <li class="has-dropdown">
                         <a href="#">Seminar Materials</a>
-
                         <ul class="dropdown">
                             <li>
                                 <a href="#">Topics</a>
                             </li>
-
                             <li>
                                 <a href="#">Media</a>
                             </li>
-
                             <li>
                                 <a href="#">Clients</a>
                             </li>
@@ -142,7 +106,6 @@
         <div class="row">
             <div class="large-12 columns">
                 <h1>Who knew learning</h1>
-
                 <h1>could be this much fun?</h1>
             </div>
         </div>
@@ -154,30 +117,21 @@
                 <div class="text-center">
                     <h2>WHAT CAN KLS BRING TO YOUR NEXT SEMINAR?</h2>
                 </div>
-
                 <div class="small-12 medium-12 large-12 columns">
                     <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                         <li>
                             <img alt="hover image" class="hover-image" onmouseout="this.src='img/image1.svg'" onmouseover="this.src='img/image1hover.svg'" src="img/image1.svg">
-
                             <h3 class="text-center">Enjoyable Learning</h3>
-
                             <p class="text-justify">We believe that an enjoyable experience is the best way to engage the brain, keep your team happy, and ultimately help them retain what they learn. Your team will be laughing as they learn!</p>
                         </li>
-
                         <li>
                             <img alt="hover image" class="hover-image" onmouseout="this.src='img/image2.svg'" onmouseover="this.src='img/image2hover.svg'" src="img/image2.svg">
-
                             <h3 class="text-center">Creative Teaching</h3>
-
                             <p class="text-justify">We work with you to establish the best seminar to fit your needs. We couple interactive material and team building exercises to bring you an unforgettable learning experience!</p>
                         </li>
-
                         <li>
                             <img alt="hover image" class="hover-image" onmouseout="this.src='img/image3.svg'" onmouseover="this.src='img/image3hover.svg'" src="img/image3.svg">
-
                             <h3 class="text-center">Engaging Content</h3>
-
                             <p class="text-justify">Apart from being FUN, our content truly is designed around effective real-world experience. Your team will leave having learned valuable, instantly useful information for change you will see immediately.</p>
                         </li>
                     </ul>
@@ -199,30 +153,18 @@
 
                 	<h4 class="text-center" style="padding-bottom:15px;">These are just a few of the companies we are proud to have worked for.</h4>
 				</div>
-                <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
-                    
+                <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">                   
                     <li><img alt="Greyhound" class="th show-for-medium-up" src="img/port1.png"></li>
-
                     <li><img alt="Texas Instruments" class="th show-for-medium-up" src="img/port2.png"></li>
-
                     <li><img alt="Texas Baptists" class="th show-for-medium-up" src="img/port3.png"></li>
-
                     <li><img alt="American Airlines" class="th" src="img/port4.png"></li>
-
                     <li><img alt="New York Times" class="th" src="img/port5.png"></li>
-
                     <li><img alt="Humana" class="th show-for-medium-up" src="img/port6.png"></li>
-
                     <li><img alt="Frito Lay" class="th show-for-medium-up" src="img/port7.png"></li>
-
                     <li><img alt="State Farm" class="th show-for-medium-up" src="img/port8.png"></li>
-
                     <li><img alt="Sprint" class="th" src="img/port9.png"></li>
-
                     <li><img alt="IBM" class="th show-for-medium-up" src="img/port10.png"></li>
-
                     <li><img alt="Walmart" class="th" src="img/port11.png"></li>
-
                     <li><img alt="NASA" class="th" src="img/port12.png"></li>
                 </ul>
             </div>
@@ -261,10 +203,14 @@
     </div>
   </div>
 </footer>
-	<script src="js/vendor/jquery.js"></script> <script src="js/foundation.min.js"></script> <script>
-$(document).foundation();
-    </script> <script>
-$(function() {
+	<script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script> 
+    <script src="js/submit.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <script>
+        $(function() {
             $('a[href*=#]:not([href=#])').click(function() {
                 if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                     var target = $(this.hash);
