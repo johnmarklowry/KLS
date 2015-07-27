@@ -267,3 +267,10 @@ div .small-block-grid-1.medium-block-grid-2.large-block-grid-3 li {
   max-width:350px; }
   .logo i {
     margin-right: 0.5rem; }
+
+#formSent {
+  color: #F00;
+  font-weight: bold;
+  margin: -5px 0 10px 0;
+  text-align: center;
+}
